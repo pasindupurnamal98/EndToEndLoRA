@@ -45,3 +45,4 @@ if __name__ == "__main__":
     print(prompt_template("nicholas renotte", 10))
 
 #test
+#test2
