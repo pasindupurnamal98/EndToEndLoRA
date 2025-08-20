@@ -12,4 +12,4 @@ if __name__ == "__main__":
     for i, chunk in enumerate(chunks): 
             print(Fore.YELLOW + f"Raw Text:\n{chunk.text[:300]}…" + Fore.RESET)
             enriched_text = chunker.contextualize(chunk=chunk)
-            print(Fore.LIGHTMAGENTA_EX + f"Contextualized Tex:\n{enriched_text[:300]}…" + Fore.RESET)
+            print(Fore.LIGHTMAGENTA_EX + f"Contextualized Text:\n{enriched_text[:300]}…" + Fore.RESET)
